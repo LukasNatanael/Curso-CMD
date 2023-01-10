@@ -1,0 +1,24 @@
+cacls /?
+icacls /?
+	- icacls {nome_do_arquivo.extensão} /save acl
+		- Salva uma ACL do arquivo
+	- icacls {nome_do_arquivo.extensão} /setowner Lukas
+		- Definir um propietário do arquivo
+	- icacls {nome_do_arquivo.extensão} /verify
+		- Verifica a integridade das ACL's do arquivo ou pasta
+	- icacls {nome_do_arquivo.extensão} /reset
+		- Reseta as ACL's do arquivo ou retorna ao padrão
+	- icacls {nome_do_arquivo.extensão} /inheritance: {opções}
+		- e -> habilita a herança
+		- d -> desabilita a herança
+		- r -> remove todas definições de ACL do arquivo
+	
+	- icacls {nome_do_arquivo.extensão} /grant %username%:(ge,gr)
+		- Cede permissões para determinado usuário ou grupo de usuários
+		
+	- icacls {nome_do_arquivo.extensão} /deny %username%:(ge,gr)
+		- Nega permissões para determinado usuário ou grupo de usuários
+		
+	- icacls {nome_do_arquivo.extensão} {caminho_da_pasta_do_arquivo} /restore {nome_do_arquivo}
+	
+	- icacls {nome_do_arquivo.extensão} /reset

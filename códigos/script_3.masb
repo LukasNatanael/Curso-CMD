@@ -1,0 +1,12 @@
+@echo off
+
+echo %errorlevel%
+
+tasklist /fi "imagename eq notepad.exe" | find "notepad.exe" >null
+
+echo %errorlevel% 
+
+if %errorlevel% == 0 (echo bloco de notas esta aberto) else (echo abrindo notepa | notepad)
+
+echo %errorlevel%
+pause >null

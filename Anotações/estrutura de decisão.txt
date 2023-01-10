@@ -1,0 +1,19 @@
+Estrutura condicional
+	- realizando testes com batch
+		
+		- verificando se um arquivo/pasta existe
+			cd "D:\Curso CMD"
+			cd
+			if exist Lukas (echo EXISTE) else (echo NAO EXISTE)
+		
+		- verificando a existência de uma váriavel
+		
+		- testando ERRORLEVEL
+	- senão
+	
+EQU - igual
+NEQ - diferente
+LSS - menor que
+LEQ - menor que ou igual
+GTR - maior que
+GEQ - maior que ou igual

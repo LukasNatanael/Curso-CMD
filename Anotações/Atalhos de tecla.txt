@@ -1,0 +1,9 @@
+- Atalhos de tecla 
+	- Setas para CIMA e para BAIXO recuperam o comando
+	- ESC limpa a linha de comando
+	- F7 exibe o histórico de comandos
+	- ALT + F7 limpa o histórico de comandos
+	- F8 pesquisa o histórico de comandos
+	- F9 seleciona um comando por número
+	- ALT + F10 limpa as definições de macros
+	

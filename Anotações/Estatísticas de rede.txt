@@ -1,0 +1,18 @@
+- PING /?
+	- Mede o intervalo entre o envio e o recebimento de um pacote.
+	- ping {site_que_deseja_verificar}
+- ARP /?
+	- Lida com o protocolo arp.
+	- retorna ip das maquinas locais.
+- ROUTE /?
+	- Exibe e modifica as entradas na tabela de roteamento IP local.
+- IPCONFIG /?
+	- Obtem informações quanto aos adaptadores de rede.
+- NETSTAT /?
+	- Exibe estatísticas de protocolo e conexões de rede TCP/IP atuais.
+- TELNET /?
+	- Proporciona facilidade de comunicação baseada em texto interativo.
+- FTP /?
+	- Protocolo de Tranferência de Arquivos.
+- NBTSTAT /?
+- NSLOOPUP /? 

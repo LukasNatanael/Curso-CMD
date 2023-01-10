@@ -1,0 +1,36 @@
+Tarefas agendadas
+
+at /?
+	- tarefas simples
+schtasks /? 
+	- Sheduled Tasks
+	- tarefas complexas
+	schtasks /change /?
+	schtasks /run /?
+	schtasks /end /?
+Comandos:
+	schtasks ou schtasks /query
+		- mostra as tarefas do sistema.
+	schtasks /query /tn {nome_da_tarefa}
+		- procura e mostra uma tarefa específica.
+	schtasks /query /tn {nome_da_tarefa} /v /fo list
+		- porcura e mostra uma tarefa específica de mais completa e deixa no formato de lista.
+	schtasks /run /tn {nome_da_tarefa}
+		- agenda uma tarefa para ser executada.
+	schtasks /run /tn {nome_da_tarefa}
+		- suspende a execução de uma tarefa agendada. 
+	schtasks /showsid /tn {nome_da_tarefa}	
+		- mostra o sid da tarefa.
+	schtasks /create /tn {nome_da_tarefa}
+		- cria e agenda uma tarefa.
+		- schtasks /create /?
+	/sc
+		- indica quando o comando será executado.
+	/tr
+		- indica a localização do arquivo a ser agendado.
+	schtasks /create /sc montly /mo first /d {dia_da_semana} /tn "{nome_da_tarefa}" /tr {nome_do_arquivo}
+		- cria uma tarefa que será executada de mês em mês no primeiro dia específico.
+	schtasks /change
+		- altera algo em uma tarefa.
+	
+	

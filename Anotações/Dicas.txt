@@ -1,0 +1,55 @@
+Criar arquivos com batch
+	- copy NUL arquivo.txt
+	
+Instalar programas pelo prompt:
+	- wusa /?
+	- msiexec /?
+	Exemplo:
+		- {nome_do_executavel}.exe /norestart /verysilent /forcecloseapplications
+
+Takeown :
+	- takeown /?
+		- Força a alteração, força um utilitário 
+	- takeown /f {nome_do_arquivo.extensão}
+	
+Tsdiscon :
+	- Muda de usuário
+	
+Shutdown:
+	- shutdown /l
+		- desconecta a sessão atual
+	- shutdown /s
+		- desliga o computador 
+	- shutdown /a
+		- cancela o desligamento do computador
+	 - shutdown /t
+	 	- mostra em quanto tempo o computador será desligado ou reiniciado
+	 - shutdown /r
+	 	- reinicia o computador
+	 - shutdown /h
+	 	- hiberna o computador 
+
+Implementar linhas de arquivos Powershell no Batch:
+	- powershell write-host Olá %nome%, prazer em conhece-lo. -background 2 -foreground 0
+	- apenas adicionar uma linha "powershell" com o comando.
+	
+Tracert /?
+	- Traça pulos de conexão.
+	- Testa os saltos da conexão do meu computador até o destino final e retorna o IP de todos os locais.
+	
+Robocopy /?
+	- copia arquivos com mais velocidade.
+
+Net share /?
+	- net share {nome_da_pasta}={caminho_da_pasta}
+		- compartilha pasta de arquivos na rede.
+	- net share {nome_da_pasta}={caminho_da_pasta} /delete
+		- deleta a pasta da rede.
+		
+Cipher /?
+	- Permite exibir ou alterar a criptografia de diretórios e arquivos em 	 	  partições NTFS.
+
+- Como assistir Star Wars ep4 "Uma nova esperança" pelo cmd
+	- optionalFeatures
+		- habilitar Cliente TelNet
+	- telnet towel.blinkenlights.nl

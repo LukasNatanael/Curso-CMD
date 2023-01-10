@@ -1,0 +1,10 @@
+Caracteres especiais
+	- ^ para utilizar caracteres especiais
+		echo ^&
+		echo ^^
+		echo ^!
+		
+	- && || funciona tipo um if and else
+		dir && echo Deu certo || echo Comando incorreto!
+		- se o comando dir funcionar mensagem "Deu certo" aparecerá
+		- caso contrário a mensagem "Comando incorreto!" será exibida

@@ -1,0 +1,5 @@
+@echo off
+
+if exist Lukas (echo A pasta existe!) else (echo a pasta nao existe)
+
+pause >null

@@ -1,0 +1,13 @@
+@echo off
+
+echo Verifica se a pasta Lukas existe ou nao;
+cd "D:\Curso CMD"
+cd
+if exist Lukas (echo EXISTE) else (echo NAO EXISTE)
+
+echo.
+
+echo Verifica se a variavel path existe ou nao;
+if defined path (echo Essa variavel foi criada) else (echo essa variavel nao foi criada)
+
+pause >null

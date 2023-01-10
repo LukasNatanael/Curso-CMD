@@ -1,0 +1,68 @@
+Navegando pelas pastas
+	
+	- dir
+		- Mostra todos os arquivos e pastas dentro do diretório atual
+	
+	- cd
+		- Vai até o caminho especificado
+		- cd.. 
+			- volta uma pasta atrás
+		- cd\
+			- volta direto para a raiz
+		- cd %userprofile%
+			- C:\Users\Lukas
+		- cd %username%
+			- "Lukas"
+		
+	- set
+		- set p
+		- procura todos os arquivos no sistema que começam com 'p' 
+	
+	- path
+		- path
+			- mostra o path atual
+		- path ;
+			- vai procurar as coisas apenas na pasta atual
+	
+	- md (make directory)
+		- cria um diretório 
+	
+	- rd (remove directory)
+		- remove um diretório
+		
+	- rename (ren)
+		- Renomeia um arquivo
+		- rename 'nome do arquivo a ser renomeado' 'novo nome do arquivo'
+		- ren 'nome do arquivo a ser renomeado' 'novo nome do arquivo'
+		
+	- copy
+		- copy /?
+		- copy
+			- copy 'arquivo a ser copiado' 'local a ser colado o arquivo'
+			- copiar o mesmo arquivo com outro nome
+				- copy "arquivo original a ser copiado' 'local a ser colado o arquivo\'novo nome'"
+	- replace
+		- replace /?
+		- substitui o arquivo antigo por um novo
+		- replace 'nome do arquivo' 'local do arquivo a ser substituído'
+	
+	- move 
+		- move /?
+		- move 'nome do arquivo' 'pasta de destino'
+				
+	- del ou erase
+		- del /?
+		- deleta um arquivo
+		- del 'nome do arquivo'
+		- erase 'nome do arquivo'
+		
+	- attrib
+		- attrib /?
+		- permite ver e editar os atributos de um arquivo
+			- attrib 'nome do arquivo'
+			
+	- type
+		- type /?
+		- permite ler todas as linhas de um arquivo
+			
+			

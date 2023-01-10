@@ -1,0 +1,46 @@
+* -> Lista todos os arquivos 
+
+For
+	for %variavel in (comando) do (comando)
+		- exemplo
+			for %p in (pasta1 pasta2 pasta3) do (md %p)
+	- %variavel
+		referência à alguma variável
+	- %%variavel
+		referencia à algum arquivo .bat
+	
+	- Parâmetros
+		- /l
+		faz um loop
+			for /l %n in (1,1,10) do (echo %n) 
+			for /l %n in (10,-1,0) do (echo %n)
+			
+		- /d
+		lista diretórios
+			for /d %a in (*) do (echo %a)
+			- aceita parâmetros
+				for /d %a in (*) do (echo %~fa)
+		
+		- /r
+		listar arquivos
+			- for /d /r C:\ %a (*) do (echo %a)
+			- for /r C:\ %a (*.exe) do (echo %a)
+
+
+		- /f 
+			- tokens
+			Ele basicamente cria uma coluna
+				- for /f "tokens=1-9" %a in (arq.txt) do (echo %a %b %c)
+				- for /f "tokens=*" %a in (arq.txt) do (echo %a %b %c)
+			- delims
+			Delimita as colunas por tal delimitador (nesse caso o l)
+				- for /f "tokens=1-3 delims=l" %a in (arq.txt) do (echo %a %b %c)
+			- skip
+			Pula determinado número de linhas 
+				- for /f "tokens=* skip=2" %a in (arq.txt) do (echo %a)
+			- eol
+			Toda vez que encontrar tal letra, ignore-a
+				- for /f "tokens=* eol=f" %a in (texto.txt) do (echo %a)
+			- usebackq
+			Escreve o texto dentro do arquivo .txt ou quqluer outro arquivo de texto
+				- for /f "tokens=* usebackq" %a in ("ola pessoas.txt") do (echo %a)

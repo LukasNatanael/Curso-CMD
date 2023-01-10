@@ -1,0 +1,30 @@
+Operadores
+	- adição +
+	- subtração -
+	- multiplicação *
+	- divisão /
+	- módulo % 
+
+Cálculos
+	- set /a 
+		- utilizado para realizar um cálculo simples
+	
+	- Simples
+		- set /a adi=2+2
+		echo 2+2=%adi%
+		
+	- Composto
+		- set /a x1=2*2-(88*6), x2=(44/4)*(10*9)
+			echo x1=2*2-(88*6)		%x1%
+			echo x2=(44/4)*(10*9)		%x2%
+		
+Operações de atribuição
+	- atribuição padrão =
+	- adição +=
+	- subtração -=
+	- multiplicação *=
+	- divisão /=
+	- módulo %=
+	
+Multiplas váriaveis numéricas
+	- set /a y=2 & echo y=%y%

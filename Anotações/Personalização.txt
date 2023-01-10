@@ -1,0 +1,28 @@
+- Personalização
+	- title
+		- Muda o título do cmd
+
+	- color
+		- Permite mudar as cores do console
+		- color /? mostra o número das cores
+		- color 20
+			- O primeiro número representa a cor de fundo
+			- O segundo número representa a cor das letras
+		- color (sem parâmetro)
+			- Retorna as cores padrões
+	
+	- mode
+		- Define o tamanho da tela do cmd
+		- mode 100, 20
+			- o primeiro é o numero de colunas
+			- o segundo é o número de linhas
+	
+	- prompt
+		- muda o texto do prompt
+			- C:\windows\system32
+			- prompt $D $B $T $G$G$S
+				- informa a data e hora do último comando
+		- prompt /?
+			- Mostra as informações do comando prompt
+		- prompt
+			- retorna ao prompt padrão

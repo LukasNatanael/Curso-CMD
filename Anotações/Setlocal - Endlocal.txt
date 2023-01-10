@@ -1,0 +1,6 @@
+Setlocal - Endlocal
+
+enableextensions
+disableextensions
+
+setlocal enabledelayedexpansion

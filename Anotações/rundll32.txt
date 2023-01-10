@@ -1,0 +1,40 @@
+- rundll32 shell32.dll, {comando}
+	- Formas de acessar as abas:
+		- @0,{número_da_aba}
+		- ,,{número_da_aba}
+	- rundll32 shell32.dll,Control_RunDLL {comando}
+		- abre o painel de controle, e dentro dele abre um programa.
+		
+	- rundll32 shell32.dll,Control_RunDLL timedate.cpl @0, 1
+		- abre o "Data e Hora" e vai para a segunda aba.
+		
+	- rundll32 shell32.dll,Control_RunDLL desk.cpl
+		- abre as configurações de tela.
+		- ,, acessa outras utilidades dentro do mesmo método, funciona tipo o @.
+	
+	- rundll32 shell32.dll,Control_RunDLL Sysdm.cpl,,{abas}
+		- abre as configurações do sistema.
+		- nesse caso, as abas vão até cinco, elas são opcionais.
+	
+	- rundll32 shell32.dll,Control_RunDLL desk.cpl,,0
+		- abre as configurações de icones da área de trabalho.
+	
+	- rundll32 shell32.dll,Control_RunDLL desk.cpl,,1
+		- abre as configurações de proteção de tela.
+	
+	- rundll32 shell32.dll,Control_RunDLL desk.cpl,,2	
+		- abre as configurações de personalização.
+	
+	- rundll32 shell32.dll,Control_RunDLL appwiz.cpl,,{abas}
+		- abre o Programas e Recursos do painel de controle.
+		- as abas vão até três, elas são opcionais.
+		
+	- rundll32 shell32.dll,Control_RunDLL main.cpl,,{abas}
+		- abre as configurações do mouse.
+		- as abas vão até quatro.
+		
+	- rundll32 shell32.dll,Options_RunDLL {opções}
+		- as opções vão de zero a seis.
+	
+			
+	

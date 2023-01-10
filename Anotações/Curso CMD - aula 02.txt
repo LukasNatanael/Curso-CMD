@@ -1,0 +1,53 @@
+- Comandos básicos
+	- cls
+		- Limpa a tela
+
+	- echo
+		- Digita uma mensagem na tela
+		- Ativar ou desativar o echo do sistema
+			- echo off
+			- echo on
+
+	- vol
+		- Da informações sobre os volumes do computador (Discos locais)
+
+	- ver
+		- informa a versão do sistema
+
+	- clip
+		- Permite copiar texto do console para a área de transferência
+		Exemplo:
+			- echo Lukas Natanael lindo | clip
+
+	- date
+		- date -> modifica a data do sistema (dd/mm/aa)
+		- date /t -> mostra a data do sistema
+		
+	- time
+		- time -> modifica a data do sistema (dd/mm/aa)
+		- time /t -> mostra a data do sistema
+		
+	- start
+		- Inicia uma tarefa
+		Exemplo:
+			- start www.youtube.com
+			- start www.google.com
+			- start mrt
+	- winver
+		- Informa a versão da compilação do sistema
+		
+	- exit
+		- Fecha o cmd.exe
+
+	- doskey
+		- Edita linhas de comando, volta a chamar comandos do Windows e cria macros.
+		- doskey nota="C:\windows\notepad.exe" "D:\VS Code Projects\Testando_bibliotecas\Selenium 2022\CSS Selector - 1.txt"
+						|								|
+						V								V
+				Oque a macro vai executar			Caminho do arquivo .txt que o notepad irá abrir
+					  (Notepad)					(CSS Selector - 1.txt)
+					  
+		- doskey /macros
+			- mostra suas macros existentes
+
+	

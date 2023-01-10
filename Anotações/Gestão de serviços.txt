@@ -1,0 +1,17 @@
+Gestão de serviços
+	- sc /?
+		- sc start {nome_da_tarefa}
+		- sc pause {nome_da_tarefa}
+		- sc continue {nome_da_tarefa}
+		- sc stop {nome_da_tarefa}
+	- sc create
+	- sc config {nome do processo}
+	- sc delete {nome do processo}
+	- net
+		- start
+		- pause
+		- continue
+		- stop
+Dica:
+	- format /?
+	- label {letra da unidade}: {nome da unidade}

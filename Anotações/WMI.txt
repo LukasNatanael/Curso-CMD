@@ -1,0 +1,83 @@
+WMI -> Windows Management instrumention comand line
+
+- wmic /?
+- alias -> provedor de informações
+	- wmic {alias} get /format /?
+	- wmic {alias} get /?
+	- wmic {alias} list brief
+		- informações breves
+	- wmic {alias} list full.
+		- informações completas.
+		
+	- wmic process get /?
+		- retorna informações sobre o get do process.
+	- wmic process call create "nome_processo.exe"
+		- cria um processo e executa ele.
+	- wmic process where caption="nome_processo.exe" call terminate
+		- procura e finaliza o processo. 
+	- wmic process get name, processid
+		- lista as tarefas em execução no computador.
+		
+	- wmic qfe get /?
+		- retorna informações sobre o get do qfe.
+	- wmic qfe get hotfixid
+		- retorna todas atualizações instaladas no computador.
+	
+	- wmic product get /?
+		- retorna informações sobre o get do product.
+	- wmic product get name
+		- retorna o nome de todos os programas instalados no computador.
+	- wmic product get name | sort
+		- retorna o nome de todos os programas instalados no computador de forma 		  alfabética.
+	
+	- wmic product where {alias} /?
+	- wmic product where name="nome_programa_desinstalar" call uninstall
+		- desinstala um programa do computador.
+		- só funciona em modo adiministrador.
+		
+	- wmic desktopmonitor get /?
+		- retorna informações sobre o get do monitor.
+	- wmic desktopmonitor get screenhight, screenwidth
+		- retorna informações sobre o tamanho do monitor.
+	
+	- wmic memorychip get /?
+		- retorna informações sobre o get da memória ram.
+	- wmic memorychip get capacity, manufacturer
+	
+	- wmic diskdrive get /?
+		- retorna informações sobre o get do HD.
+	 - wmic diskdrive get caption, size
+	 	- retorna a descrição e o tamanho do(s) HD(s).
+	 	
+	 - wmic cpu get /?
+	 	- retorna informações sobre o get do processador.
+	 - wmic cpu get caption, manufacturer, name /format:list
+	 	- retorna a descrição, fabricante e nome do cpu em formato de lista.
+	 	
+	 - wmic baseboard /?
+	 	- retorna informações sobre o get da placa mãe.
+	 - wmic baseboard get manufacturer, product, version
+	 	- retorna fabricante, produto e versão da placa mãe.
+	 
+	 - wmic os get /?
+	 	- retorna informações sobre o get do sistema operacional.
+	 - wmic os get (
+	 	caption, -> título do sistema. 
+	 	FreePhysicalMemory, -> memória física disponível.
+	 	manufacturer, -> fabricante.
+	 	MUIlanguages, -> linguagem de exibição.
+	 	numberofprocesses, -> número de processos.
+	 	numberofusers, -> número de processos.
+	 	OSArchitecture, -> arquitetura do sistema [32 bits ou 64 bits].
+	 	primary, -> é ou não primário, retorna em boleano.
+	 	registereduser,	-> usuário registrado.
+	 	systemdirectory, -> diretório do sistema.
+	 	systemdrive, -> sistema de disco.
+	 	version -> versão do sistema.
+	 	/format:list
+	 	)
+	 - wmic /node
+	 	- o parâmetro NODE indica que a operação será realizada em outra máquina
+	 - wmic /node:{ip_da_maquina} /user:{usuário} os get {alias}
+	 	- retorna informações da máquina.
+	 

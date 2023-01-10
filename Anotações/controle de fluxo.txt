@@ -1,0 +1,34 @@
+Goto
+	- Rotulos
+		- :início
+		- :fim
+	- Saltos
+		- goto
+	- Salto para o fim do script
+		- :eof
+		
+Call
+	- Definir referência do argumento
+		- call :var
+			- uso obrigatório do :
+			
+	- substituindo variáveis por referências de argumento
+		echo %nome% %idade% %pais% %linguagem% "Lukas Natanael"
+		echo %1
+		echo %2
+		echo %3
+		echo %4
+		- uso do "~"
+			- ele é responsável por retirar as aspas das strings
+				echo %~5
+		- mostrar tudo
+			echo %*
+			
+Visualizar propiedades de arquivos
+	-
+	
+	-
+	
+	-
+	
+	-			

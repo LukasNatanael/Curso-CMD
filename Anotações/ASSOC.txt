@@ -1,0 +1,31 @@
+Associações de Extensões de Arquivos (ASSOC)
+	- é a extensão de alguma arquivo.
+		Exemplo:
+			- .txt
+			- .exe
+			- .avi
+			- .mp4
+			- .zip
+
+Assoc /?
+	- Informações sobre o comando.			
+	
+	- assoc
+		- Lista todas as associações de extensões de arquivos.
+	- assoc {extensão}
+		- exibe a associação entre a extensão e um tipo de arquivo.
+	- assoc {extensão}=
+		- remove a associação do arquivo.
+	- assoc {extensão}={extensão}
+		- ex: assoc .txt=jpgfile
+			- .txt agora vira extensão de imagem.
+
+Ftype /?
+	- altera a extensão de um arquivo.
+	
+	- ftype {extensão}={nova_extensão}
+		- ex: ftype txtfile="D:\Notepad++\notepad++.exe"
+			- arquivos .txt passam a ser executados pelo notepad++.
+		- ftype txtfile=calc
+			- arquivos .txt passam a ser executados pela calculadora.
+	

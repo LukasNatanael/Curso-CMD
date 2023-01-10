@@ -1,0 +1,8 @@
+@echo off
+
+cd "D:\Curso CMD"
+cd
+
+if not exist Lukas (echo A pasta existe!) else (echo a pasta nao existe)
+
+pause >null

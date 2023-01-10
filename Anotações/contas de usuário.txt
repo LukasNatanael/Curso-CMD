@@ -1,0 +1,22 @@
+Contas de usuário
+
+- net /?
+- net user {nome_de_usuario} /add
+	- adiciona um novo usuário (sem senha)
+- net user {nome_de_usuário} {senha}
+	- adiciona uma senha ao usuário(visível)
+- net user {nome_de_usuário} *
+	- adiciona uma senha ao usuário(invisível)
+- net user {nome_de_usuário} /comment:"comentário"
+	- adiciona um comentário à conta
+- net user {nome_de_usuário} /fullname:"Nome"
+	- adiciona um nome completo na conta
+- net user {nome_de_usuário} /del
+	- deleta o usuário
+- net localgroup
+	- mostra todos os grupos locais do windows
+- net localgroup {grupo} 
+	- mostra oque tem dentro dos grupos 
+- net localgroup {nome_do_grupo} {nome_de_usuário} /add
+	- adiciona um usuário a um determinado grupo 
+- net localgroup {nome_do_grupo} {nome de usuário} /dd

@@ -1,0 +1,10 @@
+Código padrão de saida 
+	- 0: entrada de dados
+	- 1: saída de dados sem erro 
+	- 2: saída de dados com erro
+	- 3 e 9: saídas personalizadas 
+	- 10..: código de erro
+
+Códigos personalizado de saida
+
+Comando CHOICE

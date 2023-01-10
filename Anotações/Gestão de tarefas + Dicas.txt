@@ -1,0 +1,8 @@
+Gestão de tarefas
+	- tasklist /?
+	- taskkill /?
+	- tskill /?
+
+Dicas:
+	- sfc /?
+	- chkdsk /?

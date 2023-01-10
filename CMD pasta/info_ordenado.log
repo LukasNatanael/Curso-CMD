@@ -1,0 +1,146 @@
+                                                 0.0.0.0
+                                                 fec0:0:0:ffff::2%1
+                                                 fec0:0:0:ffff::3%1
+   Concess∆o Expira. . . . . . . . . . . . . . : quinta-feira, 21 de abril de 2022 15:32:31
+   Concess∆o Obtida. . . . . . . . . . . . . . : teráa-feira, 19 de abril de 2022 11:42:22
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Configuraá∆o Autom†tica Habilitada. . . . . : Sim
+   Descriá∆o . . . . . . . . . . . . . . . . . : Famatech RadminVPN Ethernet Adapter
+   Descriá∆o . . . . . . . . . . . . . . . . . : Microsoft Teredo Tunneling Adapter
+   Descriá∆o . . . . . . . . . . . . . . . . . : NVIDIA nForce Networking Controller
+   DHCP Habilitado . . . . . . . . . . . . . . : N∆o
+   DHCP Habilitado . . . . . . . . . . . . . . : N∆o
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-29-CE-B5-91-BC-5F-F4-A3-04-5B
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-29-CE-B5-91-BC-5F-F4-A3-04-5B
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 00-01-00-01-29-CE-B5-91-BC-5F-F4-A3-04-5B
+   Endereáo F°sico . . . . . . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   Endereáo F°sico . . . . . . . . . . . . . . : 02-50-A8-3F-C8-79
+   Endereáo F°sico . . . . . . . . . . . . . . : BC-5F-F4-A3-04-5B
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 192.168.0.111(Preferencial) 
+   Endereáo IPv4. . . . . . . .  . . . . . . . : 26.36.212.152(Preferencial) 
+   Endereáo IPv6 . . . . . . . . . . : 2001:0:2877:7aa:1488:b6f:d243:b60e(Preferencial) 
+   Endereáo IPv6 . . . . . . . . . . : fdfd::1a24:d498(Preferencial) 
+   Endereáo IPv6 de link local . . . . . . . . : fe80::1488:b6f:d243:b60e%9(Preferencial) 
+   Endereáo IPv6 de link local . . . . . . . . : fe80::1dfc:6f14:e641:399c%18(Preferencial) 
+   Endereáo IPv6 de link local . . . . . . . . : fe80::bc42:1469:f038:b063%14(Preferencial) 
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 192.168.0.1
+   Gateway Padr∆o. . . . . . . . . . . . . . . : 26.0.0.1
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 113008628
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 150994944
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 453136552
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.0.0.0
+   M†scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Desabilitado
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+   Nome do host. . . . . . . . . . . . . . . . : DESKTOP-RGEHDAA
+   Proxy WINS ativado. . . . . . . . . . . . . : n∆o
+   Roteamento de IP ativado. . . . . . . . . . : n∆o
+   Servidor DHCP . . . . . . . . . . . . . . . : 192.168.0.1
+   Servidores DNS. . . . . . . . . . . . . . . : 192.168.0.1
+   Servidores DNS. . . . . . . . . . . . . . . : fec0:0:0:ffff::1%1
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Sufixo DNS espec°fico de conex∆o. . . . . . : 
+   Sufixo DNS prim†rio . . . . . . . . . . . . : 
+   Tipo de n¢. . . . . . . . . . . . . . . . . : h°brido
+  192.168.0.1           60-a4-b7-d9-9e-34     dinÉmico  
+  192.168.0.255         ff-ff-ff-ff-ff-ff     est†tico  
+  224.0.0.22            01-00-5e-00-00-16     est†tico  
+  224.0.0.22            01-00-5e-00-00-16     est†tico  
+  224.0.0.251           01-00-5e-00-00-fb     est†tico  
+  224.0.0.251           01-00-5e-00-00-fb     est†tico  
+  224.0.0.252           01-00-5e-00-00-fc     est†tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est†tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est†tico  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     est†tico 
+  26.0.0.1              02-00-00-00-51-00     dinÉmico  
+  26.255.255.255        ff-ff-ff-ff-ff-ff     est†tico  
+  Endereáo IP           Endereáo f°sico       Tipo
+  Endereáo IP           Endereáo f°sico       Tipo
+  Proto  Endereáo local         Endereáo externo       Estado
+  TCP    [::]:135               DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:3389              DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:445               DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:49664             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:49665             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:49666             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:49667             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:49668             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:50327             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:5357              DESKTOP-RGEHDAA:0      LISTENING
+  TCP    [::]:65061             DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:135            DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:3389           DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:445            DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:49664          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:49665          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:49666          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:49667          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:49668          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:50327          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:5040           DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:5357           DESKTOP-RGEHDAA:0      LISTENING
+  TCP    0.0.0.0:65061          DESKTOP-RGEHDAA:0      LISTENING
+  TCP    192.168.0.111:139      DESKTOP-RGEHDAA:0      LISTENING
+  TCP    192.168.0.111:51781    cj-in-f188:5228        ESTABLISHED
+  TCP    192.168.0.111:51862    104.45.188.91:https    CLOSE_WAIT
+  TCP    192.168.0.111:55019    20.198.162.76:https    ESTABLISHED
+  TCP    192.168.0.111:61939    173:https              ESTABLISHED
+  TCP    192.168.0.111:61984    146:https              ESTABLISHED
+  TCP    26.36.212.152:139      DESKTOP-RGEHDAA:0      LISTENING
+  UDP    [::]:123               *:*                    
+  UDP    [::]:3389              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:54190             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:64990            *:*                    
+  UDP    [fe80::1dfc:6f14:e641:399c%18]:1900  *:*                    
+  UDP    [fe80::1dfc:6f14:e641:399c%18]:64989  *:*                    
+  UDP    [fe80::bc42:1469:f038:b063%14]:1900  *:*                    
+  UDP    [fe80::bc42:1469:f038:b063%14]:64988  *:*                    
+  UDP    0.0.0.0:123            *:*                    
+  UDP    0.0.0.0:3389           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:52800          *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:54189          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:54191        *:*                    
+  UDP    127.0.0.1:64993        *:*                    
+  UDP    192.168.0.111:137      *:*                    
+  UDP    192.168.0.111:138      *:*                    
+  UDP    192.168.0.111:1900     *:*                    
+  UDP    192.168.0.111:64992    *:*                    
+  UDP    26.36.212.152:137      *:*                    
+  UDP    26.36.212.152:138      *:*                    
+  UDP    26.36.212.152:1900     *:*                    
+  UDP    26.36.212.152:64991    *:*                    
+Adaptador de t£nel Teredo Tunneling Pseudo-Interface:
+Adaptador Ethernet Ethernet:
+Adaptador Ethernet Radmin VPN:
+Conex‰es ativas
+Configuraá∆o de IP do Windows
+Interface: 192.168.0.111 --- 0x12
+Interface: 26.36.212.152 --- 0xe
